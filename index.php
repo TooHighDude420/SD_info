@@ -7,6 +7,10 @@
     <title>SD_Info</title>
 </head>
     <body>
-
+        <?php
+            for ($i = 0; $i < 5; $i++) {
+                echo "het werkt ". $i;
+            }
+        ?>
     </body>
 </html>
